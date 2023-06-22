@@ -1,0 +1,79 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  place-items: center;
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  display: block;
+  text-align: left;;
+}
+.GD-image img{
+  width: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+
+
+.text{
+  float: left;
+}
+
+.history-list-wr {
+  padding: 0;
+  margin: 0;
+}
+
+.history-list {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 100px; /* 년도와 li 사이의 간격 조정 */
+  align-self: flex-start; /* 년도를 li와 수평 정렬 */
+}
+
+.day {
+  font-weight: bold;
+}
+
+.txt {
+  margin-left: 20px;
+}
+
+.history {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.history li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+
+.history p {
+  margin: 0;
+}
+
+
