@@ -1,198 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recommend program</title>
-    <link href="index.css" rel="stylesheet">
+    <link href="ex.css" rel="stylesheet">
     <link href="base.css" rel="stylesheet">
+    <link rel="stylesheet" href="AJA.css">
+    <script src="ex.js"></script>
     <link rel="stylesheet" href="sidebar.css">
-    <script src="./ex.js"></script>
 </head>
-
 <body>
-    <div id="navbar">
-        <div class="wrap">
-    
-            <a href="index.html">
-                <img class="logo" src="./image/whitelogo.png"></a>
-            <div class="item">GELS &nbsp;▾
-                <ul class="submenu">
-                    <li><a href="./GELS/index.html">GELS</a></li>
-                  </ul>
-            </div>
-            <div class="item">SAP &nbsp;▾
-                <ul class="submenu">
-                    <li><a href="./SAP_CH/index.html">SAP-중국</a></li>
-                    <li><a href="./SAP_JP/index.html">SAP-일본</a></li>
-                    <li><a href="./SAP/index.html">SAP-미국</a></li>
-                </ul>
-            </div>
-            <div class="item">해외취업 &nbsp;▾
-                <ul class="submenu">
-                    <li><a href="./Kmove/index.html">k-move</a></li>
-                   <li><a href="./AJA/index.html">AJA</a></li>
-                </ul>
-            </div>
-            <div class="item">문화 교류 &nbsp;▾
-                <ul class="submenu">
-                    <li><a href="./GLOBAL/index.html">go_global</li>
-                   <li><a href="./GBP/index.html">영어 프로그램</a></li>
-                    <li><a href="./GDS/index.html">GDS</a></li>
-                </ul>
-            </div>
-            <div class="block">
-                <div class="search">
-                    <a href="https://www.dongseo.ac.kr/kr/?pCode=search">
-                        <img src="./image/search2.png" class="searchicon">
-                    </a>
-                </div>
-                <div class="list" id="sidebar-toggle()"><img src="./image/list2.png" class="listicon" style="left: 0;">
-                    <aside class="sidebar" id="sidebar">
-                        <!-- 사이드바 내용 -->
-                        <div class="sidebar-header">
-                            <button class="close-btn" onclick="toggleSidebar()">
-    
-                        </div>
-                        <!-- links -->
-                        <ul class="links">
-                            <li>
-                                <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=headquarters">대학 소개</a>
-                            </li>
-                            <li>
-                                <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=dsuuni">대학/대학원</a>
-                            </li>
-                            <li>
-                                <a href="https://ipsi.dongseo.ac.kr/ipsi/">입학</a>
-                            </li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-        </div>
+  <div id="navbar">
+    <div class="wrap">
+
+      <a href="../index.html">
+        <img class="logo" src="./image/whitelogo.png"></a>
+    <div class="item">GELS &nbsp;▾
+        <ul class="submenu">
+            <li><a href="../GELS/index.html">GELS</a></li>
+          </ul>
     </div>
-
-
-    <div class="content">
-        <div id="first">
-            <div class="left_content">
-                <button type="button" class="prevBtn">
-                        <img src="./image2/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png" >
-                    </button>
+    <div class="item">SAP &nbsp;▾
+        <ul class="submenu">
+            <li><a href="../SAP_CH/index.html">SAP-중국</a></li>
+            <li><a href="../SAP_JP/index.html">SAP-일본</a></li>
+            <li><a href="../SAP/index.html">SAP-미국</a></li>
+        </ul>
+    </div>
+    <div class="item">해외취업 &nbsp;▾
+        <ul class="submenu">
+            <li><a href="../Kmove/index.html">k-move</a></li>
+           <li><a href="../AJA/index.html">AJA</a></li>
+        </ul>
+    </div>
+    <div class="item">문화 교류 &nbsp;▾
+        <ul class="submenu">
+            <li><a href="../GLOBAL/index.html">go_global</li>
+           <li><a href="../GBP/index.html">영어 프로그램</a></li>
+            <li><a href="../GDS/index.html">GDS</a></li>
+        </ul>
+    </div>
+        <div class="block">
+            <div class="search">
+                <a href="https://www.dongseo.ac.kr/kr/?pCode=search">
+                    <img src="./image/search2.png" class="searchicon">
+                </a>
             </div>
-            <div class="anime">
-                <div class="slider-container">
-                    <div class="slide">
-                        <img src="image2/architecture-3121009_1920.jpg" class="slide-img" alt="" />
+            <div class="list" id="sidebar-toggle()"><img src="./image/list2.png" class="listicon">
+                <aside class="sidebar" id="sidebar">
+                    <!-- 사이드바 내용 -->
+                    <div class="sidebar-header">
+                        <button class="close-btn" onclick="toggleSidebar()">
+
                     </div>
-                    <div class="slide">
-                        <img src="image2/szechenyi-chain-bridge-1758196_1920.jpg" class="slide-img" alt="" />
-                    </div>
-                    <div class="slide">
-                        <img src="image2/santorini-416136_1920.jpg" class="slide-img" alt="" />
-                    </div>
-                </div>
-            </div><div class="right_content">
-               <button type="button" class="nextBtn">
-                       <img src="./image2/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png" >
-                    </button>
-                </div> 
-        </div>
-        <div id="promote"> 
-            <div class="popup">
-                <button class="closeBtn">&times;</button>
-                <div class="slidershow">
-                  <img src="image2/marketing.png" alt="Image 1" class="slider-img active">
-                  <img src="image2/marketing2.png" alt="Image 2" class="slider-img">
-                  <img src="image2/marketing3.png" alt="Image 3" class="slider-img">
-                </div>
-              </div>
-              </div>
-        </div>
-        <div class="box"></div>
-    </div>
-
-    <div id="null">
-        <div class="box"></div>
-    </div>
-
-    <div id="second">
-        <div class="left_content"></div>
-        <div class="picture">
-            <!-- 삼성 홈페이지 참고해서 picture 블럭이 아래에서 위로 올라오는 애니메이션 ㅂㅌ -->
-            <img src="image/work.jpg" class="fade-in">
-            <img src="image/city3.png" class="fade-in">
-            <img src="image/friend2.png" class="fade-in">
-        </div>
-        <div class="right_content"></div>
-    </div>
-
-    <div id="null2">
-        <p class="letter">동서
-            <span>글로벌</span> 프로그램
-        </p>
-        <p class="small_letter">학생들의 찬란한 미래를 응원합니다.</p>
-    </div>
-
-    <div id="third">
-        <!-- 여기도 삼성 홈페이지 참고해서 아래에서 위로 올라가는 애니메이션 ㅂㅌ -->
-        <div class="box_letter">
-            <div class="box_black">
-                <p class="letter">미래를 향한 도전</p>
-                <p class="letter2">동서대<span>의</span></p>
-                <p class="letter3">글로벌 인재 양성</p>
+                    <!-- links -->
+                    <ul class="links">
+                        <li>
+                            <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=headquarters">대학 소개</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=dsuuni">대학/대학원</a>
+                        </li>
+                        <li>
+                            <a href="https://ipsi.dongseo.ac.kr/ipsi/">입학</a>
+                        </li>
+                    </ul>
+                </aside>
             </div>
-        </div>
-        <div class="box_picture">
-            <img src="./image/dongseo2.jpg">
-        </div>
-    </div>
+    </div></div>
+</div>
 
-    <div id="sub">
-        <p class="letter">동서대학교</p>
-        <p class="letter2">해외 프로그램의 이점</p>
-    </div>
 
-    <div id="four">
-        <!-- 여기도 삼성 홈페 참고해서 박스별로 마우스 가져다 댔을 때 그림자 생성/크기 약간 키우는 거 ㅂㅌ -->
-        <div class="box">
-            <img class="item" src="./image/english.png">
-            <div class="rounded-box">
-                <p class="letter">언어능력 향상</p>
-            </div>
-            <p class="letter2">문화교류를 통해 외국어 실력 늘리기!</p>
-        </div>
-        <div class="box">
-            <img class="item" src="./image/earth2.png">
-            <div class="rounded-box1">
-                <span class="letter">글로벌 인재 양성</span>
-            </div>
-            <p class="letter2">항공료/식비/숙박비 등 지원 극대화!</p>
-        </div>
-        <div class="box">
-            <img class="item" src="./image/job.png">
-            <div class="rounded-box">
-                <p class="letter">미래 취업 연계</p>
-            </div>
-            <p class="letter2">해외 취업의 발판!</p>
-        </div>
+    <div class="title">
+      <h1>AJA Road</h1>
     </div>
+  
+    <main>
+      <div class="container">
+        <div class="AJA-image">
+          <img class="Aimage" src="소개페이지 이미지\AJA포스터.png" alt="">
+        </div>
+  
+        <div class="text">
+          
+          <h2>모집개요</h2><br>
+          <hr>
+          <p>모집대상: 본교 재학생(2~4학년) 및 지역 청년<br><br>
+            모집인원: 프로그램별 각 15명(선착순 모집)<br><br>
+            필수사항:<br><br>1. 공식OT참여(3월 29일(수))<br><br>
+            2. 대학일자리센터 수요일은 스펙업데이 참여<br><br>
+            3. 대학일자리센터 상담 2회 실시<br><br>
 
-    <div id="six">
-        <div class="box">
-            <img class="logo" src="./image/redlogo.png">
-            <p class="letter">세상을 향한 첫 발걸음</p>
-            <p class="letter2">동서대학교 해외 프로그램</p>
-            <div class="rounded-box2">
-                <p class="letter3"><a href="index.html">바로가기</a></p>
-            </div>
+            신청 방법: 동서대학교 대학일자리센터 어플리케이션<br><br>
+            모집기간: 2023년 3월 6일(월)~3월 26일(일)까지<br><br>
+            <h2>기타</h2><hr>
+            <br>
+            1. 우수 이수자 장학금 지급<br><br>
+            2. 모집인원 미달시 프로그램 운영 불가<br><br>
+            3. 영어전공자 -> 기초 일본어만 지원 가능<br><br> 일어전공자 -> 기초인터뷰영어만 지원 가능<br><br>
+          </p>
+          <p>파견기간: 1학기 ~ 2학기<br><br>
+            ㆍ학점인정: 학기별 최대 18학점<br><br>
+            ㆍ혜택 : 현지 수업료 및 기숙사비 (기숙사비는 일부대학)<br><br>
+            ㆍ선발인원: 언어권별 년간 50명 내외<br><br>
+            ㆍ선발일정: 1학기 → 3-4월 (2학기 파견) / 2학기 → 9-10월 (익년 1학기 파견)</p>
+          
+          
+  
+        <div class="AJA-image">
+          <img class="Kimage" src="" alt="">
         </div>
-    </div>
-    </div>
+  
+        <div class="pyo">
+          <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+            .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+            .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+            .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+            .tg .tg-0lax{text-align:left;vertical-align:top}
+            </style>
+            <table class="tg" style="undefined;table-layout: fixed; width: 1003px">
+            <colgroup>
+            <col style="width: 149.666666px">
+            <col style="width: 254.666666px">
+            <col style="width: 290.333333px">
+            <col style="width: 308.333333px">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="tg-7btt">교육 프로그램</th>
+                <th class="tg-7btt">세부 내용</th>
+                <th class="tg-amwm">기간</th>
+                <th class="tg-amwm">비고</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c3ow">기초 인터뷰 영어</td>
+                <td class="tg-0pky">영어 인터뷰 교육(기초)<br>Resume, Cover Letter 작성</td>
+                <td class="tg-0lax" rowspan="2"><br>4.4~5.16 총 10주<br>-주 2회(화,목)<br>- 1일 3시간(18:00~21:00)<br>*중간고사 기간 제외</td>
+                <td class="tg-0lax" rowspan="3"><br><br>- 해외취업 정보제공 및 사전준비<br>- 해외취업 역량 개발을 위한 사전교육(어학)<br>- 재미있게 해외취업 준비하는 방법 교육</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">기초 일본어<br></td>
+                <td class="tg-0pky">- 기초 일본어 교육(JLPT NA-NS수준)<br>- 일문일력서, 자기소개서 작성</td>
+              </tr>
+              <tr>
+                <td class="tg-c3ow">해외 취업 특강</td>
+                <td class="tg-0pky">- 해외취업 전문가 특강<br>-해외 취업 동기부여, 해외취업 사전준비 정보제공 등</td>
+                <td class="tg-0lax">- 4월 중(1회, 2시간)</td>
+              </tr>
+            </tbody>
+            </table>
+          <br>
+          
+  
+          
+        </div>
+        
+        
+        
+      </div>
+  
+    </main>
+    <br><br><br><br>
+      </div>
+  
 
-    <div id="footer">
+      <div id="footer">
         <div class="div-title">
             <h3 class="text1">DSU
                 <span class="text2">SNS</span>
@@ -236,6 +218,6 @@
             </ul>
         </div>
     </div>
+    
 </body>
-
 </html>
