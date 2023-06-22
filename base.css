@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --col-list: #730216;
+  --col-iconred: #870119;
+  --col-strred: #9C1229;
+  --col-background: #C51230;
+  --col-box: #E9E9E9;
+  --col-white: #FFFFFF;
+  --col-list1: #F8F8F8;
+  --col-list2: #F9F9F9;
+  --col-background2: #f6f6f6;
+  --col-line: #B9B9B9;
+  --col-icongray: #5D5F63;
+  --col-black: #31343D;
+  --col-top: #142939CC;
+  --max-width: 1024px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--col-blue);
+}

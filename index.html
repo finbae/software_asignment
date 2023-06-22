@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommend program</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="base.css" rel="stylesheet">
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="./ex.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="wrap">
+    
+            <a href="index.html">
+                <img class="logo" src="./image/whitelogo.png"></a>
+            <div class="item">GELS &nbsp;▾
+                <ul class="submenu">
+                    <li><a href="./GELS/index.html">GELS</a></li>
+                  </ul>
+            </div>
+            <div class="item">SAP &nbsp;▾
+                <ul class="submenu">
+                    <li><a href="./SAP_CH/index.html">SAP-중국</a></li>
+                    <li><a href="./SAP_JP/index.html">SAP-일본</a></li>
+                    <li><a href="./SAP/index.html">SAP-미국</a></li>
+                </ul>
+            </div>
+            <div class="item">해외취업 &nbsp;▾
+                <ul class="submenu">
+                    <li><a href="./Kmove/index.html">k-move</a></li>
+                   <li><a href="./AJA/index.html">AJA</a></li>
+                </ul>
+            </div>
+            <div class="item">문화 교류 &nbsp;▾
+                <ul class="submenu">
+                    <li><a href="./GLOBAL/index.html">go_global</li>
+                   <li><a href="./GBP/index.html">영어 프로그램</a></li>
+                    <li><a href="./GDS/index.html">GDS</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="search">
+                    <a href="https://www.dongseo.ac.kr/kr/?pCode=search">
+                        <img src="./image/search2.png" class="searchicon">
+                    </a>
+                </div>
+                <div class="list" id="sidebar-toggle()"><img src="./image/list2.png" class="listicon" style="left: 0;">
+                    <aside class="sidebar" id="sidebar">
+                        <!-- 사이드바 내용 -->
+                        <div class="sidebar-header">
+                            <button class="close-btn" onclick="toggleSidebar()">
+    
+                        </div>
+                        <!-- links -->
+                        <ul class="links">
+                            <li>
+                                <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=headquarters">대학 소개</a>
+                            </li>
+                            <li>
+                                <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=dsuuni">대학/대학원</a>
+                            </li>
+                            <li>
+                                <a href="https://ipsi.dongseo.ac.kr/ipsi/">입학</a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div id="first">
+            <div class="left_content">
+                <button type="button" class="prevBtn">
+                        <img src="./image2/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png" >
+                    </button>
+            </div>
+            <div class="anime">
+                <div class="slider-container">
+                    <div class="slide">
+                        <img src="image2/architecture-3121009_1920.jpg" class="slide-img" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="image2/szechenyi-chain-bridge-1758196_1920.jpg" class="slide-img" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="image2/santorini-416136_1920.jpg" class="slide-img" alt="" />
+                    </div>
+                </div>
+            </div><div class="right_content">
+               <button type="button" class="nextBtn">
+                       <img src="./image2/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png" >
+                    </button>
+                </div> 
+        </div>
+        <div id="promote"> 
+            <div class="popup">
+                <button class="closeBtn">&times;</button>
+                <div class="slidershow">
+                  <img src="image2/marketing.png" alt="Image 1" class="slider-img active">
+                  <img src="image2/marketing2.png" alt="Image 2" class="slider-img">
+                  <img src="image2/marketing3.png" alt="Image 3" class="slider-img">
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="box"></div>
+    </div>
+
+    <div id="null">
+        <div class="box"></div>
+    </div>
+
+    <div id="second">
+        <div class="left_content"></div>
+        <div class="picture">
+            <!-- 삼성 홈페이지 참고해서 picture 블럭이 아래에서 위로 올라오는 애니메이션 ㅂㅌ -->
+            <img src="image/work.jpg" class="fade-in">
+            <img src="image/city3.png" class="fade-in">
+            <img src="image/friend2.png" class="fade-in">
+        </div>
+        <div class="right_content"></div>
+    </div>
+
+    <div id="null2">
+        <p class="letter">동서
+            <span>글로벌</span> 프로그램
+        </p>
+        <p class="small_letter">학생들의 찬란한 미래를 응원합니다.</p>
+    </div>
+
+    <div id="third">
+        <!-- 여기도 삼성 홈페이지 참고해서 아래에서 위로 올라가는 애니메이션 ㅂㅌ -->
+        <div class="box_letter">
+            <div class="box_black">
+                <p class="letter">미래를 향한 도전</p>
+                <p class="letter2">동서대<span>의</span></p>
+                <p class="letter3">글로벌 인재 양성</p>
+            </div>
+        </div>
+        <div class="box_picture">
+            <img src="./image/dongseo2.jpg">
+        </div>
+    </div>
+
+    <div id="sub">
+        <p class="letter">동서대학교</p>
+        <p class="letter2">해외 프로그램의 이점</p>
+    </div>
+
+    <div id="four">
+        <!-- 여기도 삼성 홈페 참고해서 박스별로 마우스 가져다 댔을 때 그림자 생성/크기 약간 키우는 거 ㅂㅌ -->
+        <div class="box">
+            <img class="item" src="./image/english.png">
+            <div class="rounded-box">
+                <p class="letter">언어능력 향상</p>
+            </div>
+            <p class="letter2">문화교류를 통해 외국어 실력 늘리기!</p>
+        </div>
+        <div class="box">
+            <img class="item" src="./image/earth2.png">
+            <div class="rounded-box1">
+                <span class="letter">글로벌 인재 양성</span>
+            </div>
+            <p class="letter2">항공료/식비/숙박비 등 지원 극대화!</p>
+        </div>
+        <div class="box">
+            <img class="item" src="./image/job.png">
+            <div class="rounded-box">
+                <p class="letter">미래 취업 연계</p>
+            </div>
+            <p class="letter2">해외 취업의 발판!</p>
+        </div>
+    </div>
+
+    <div id="six">
+        <div class="box">
+            <img class="logo" src="./image/redlogo.png">
+            <p class="letter">세상을 향한 첫 발걸음</p>
+            <p class="letter2">동서대학교 해외 프로그램</p>
+            <div class="rounded-box2">
+                <p class="letter3"><a href="index.html">바로가기</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="footer">
+        <div class="div-title">
+            <h3 class="text1">DSU
+                <span class="text2">SNS</span>
+            </h3>
+            <p class="text3">
+                동서대학교의 교내 온라인콘텐츠<br>(블로그, 페이스북, 유튜브, 뉴스<br>레터)를 소개합니다.
+            </p>
+        </div>
+        <div class="div-icon">
+            <ul class="mark">
+                <li class="book">
+                    <a href="http://blog.dongseo.ac.kr/dsublog">
+                    <img src="./image/book.png" width="100px">
+                    <p class="sub">웹진&블로그</p></a>
+                </li>
+                <li class="facebook">
+                    <a href="https://www.dongseo.ac.kr/kr/index.php?pCode=MN2000272&CgCode=a4">
+                    <img src="./image/facebook.png" width="100px">
+                    <p class="sub">교내페이스북</p></a>
+                </li>
+                <li class="blog">
+                    <a href="https://blog.naver.com/dongseo_uni">
+                    <img src="./image/blog.png" width="100px">
+                    <p class="sub">네이버 공식블로그</p></a>
+                </li>
+                <li class="hongboblog">
+                    <a href="https://blog.naver.com/imdongseo">
+                    <img src="./image/hongboblog.png" width="100px">
+                    <p class="sub"> &nbsp; 홍보대사 블로그</p></a>
+                </li>
+                <li class="facebook2">
+                    <a href="https://www.facebook.com/DongseoUniversity">
+                    <img src="./image/facebook.png" width="100px">
+                    <p class="sub">공식 페이스북</p></a>
+                </li>
+                <li class="youtube">
+                    <a href="https://www.youtube.com/user/dongseouniversity">
+                    <img src="./image/youtube.png" width="100px">
+                    <p class="sub">DSU 유튜브</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
